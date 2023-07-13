@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: normal 12px '돋움';
+}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: black;}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+
+header > div:nth-child(1) {
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    box-sizing: border-box;
+}
+.he1 {
+    width: 1126px;
+    height: 44px;
+    margin: 0 auto;
+}
+.he1 > p {
+    float: right;
+    margin-top: 6px;
+}
+.ico {
+    margin-right: 30px;
+    background-image: url(./images/sprites.png);
+}
+.he1 > p > .ico.user {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 17px;
+    height: 17px;
+    background-position: 0 -504px;
+}
+.he1 > p > .ico.cart {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-position: 0 -487px;
+}
+.he1 > p > .ico.label {
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    background-position: 0 -539px;
+}
+.zlabel {
+    position: relative;
+    right: -22px;
+    top: 2px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #ff6e53;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+.he2{
+    position: relative;
+    width: 1126px;
+    height: 110px;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+.banner{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.he3{
+    width: 1126px;
+    height: 46px;
+    margin: 0 auto;
+}
+header > div:nth-child(3){
+    background: #564f47;
+}
+.gnb > li{
+    display: block;
+    float: left;
+    width: 16.66%;
+    height: 46px;
+    background: #464545;
+    box-sizing: border-box;
+    color: #b0a171;
+    text-align: center;
+    line-height: 46px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gnb > li:hover{
+    background-color: #396340;
+    color: #fff;
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+main > div{
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+main > div > section {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    box-sizing: border-box;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+main > div > section:nth-child(1) { height: 480px; }
+main > div > section:nth-child(3) { height: 620px; }
+main > div > section:nth-child(4),
+main > div > section:nth-child(6) { height: 220px; }
+main > div > section:nth-child(2),
+main > div > section:nth-child(5),
+main > div > section:nth-child(7) { height: auto; }
+
+main > div > section > article {
+    width: 1126px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+
+main > div > .new > article {
+    height: 480px;
+}
+main > div > .new > article > div {
+    float: left;
+    width: 345px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+main > div > .new > article > div:nth-child(1) {
+    width: 434px;
+    height: 100%;
+}
+main > div > .new > article > div:nth-child(n+2) {
+    height: 50%;
+}
+main > div >.master > article > div {
+    float: left;
+    width: 25%;
+    height: 334px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+main > div > .organic {
+    height: auto;
+}
+main > div > .organic >.gallary{
+    overflow: hidden;
+}
+main > div > .organic > article > div {
+    float: left;
+    width: 25%;
+    height: 334px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+main > div > .grain {
+    height: auto;
+}
+main > div > .grain >.gallary{
+    overflow: hidden;
+}
+main > div > .grain > article > div {
+    float: left;
+    width: 25%;
+    height: 334px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+}

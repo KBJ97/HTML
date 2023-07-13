@@ -155,17 +155,28 @@ main > div > .qna {
 }
 main > div > .qna > h3 {
     font-size: 14px;
+    padding-bottom: 6px;
 }
 main > div > .qna > table {
     display: inline-block;
+    line-height: 19px;
     width: 100%;
-    text-overflow: ellipsis;
+    color: rgb(87, 87, 87);
+}
+.qna1 {
+    display: block;
+    width: 219px;
+    height: 20px;
     overflow: hidden;
     white-space: nowrap;
-    line-height: 20px;
-    color: rgb(87, 87, 87);
-
+    text-overflow: ellipsis;
 }
+.qna1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 main {
     width: 100%;
   }
