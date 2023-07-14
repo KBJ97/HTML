@@ -176,7 +176,6 @@ main > div > .qna > table {
     cursor: pointer;
 }
 
-
 main {
     width: 100%;
   }
@@ -202,6 +201,80 @@ main {
     box-sizing: border-box;
     overflow: hidden;
   }
+  .quick > a {
+    display: block;
+    width: 100%;
+    height: 34px;
+    border: 1px solid #d9d9d9;
+    margin-top: 6px;
+    font-size: 0;
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+.quick > a:nth-of-type(1) {
+    background-image: url(../images/aside_quick_court.png);
+}
+.quick > a:nth-of-type(2) {
+    background-image: url(../images/aside_quick_google.png);
+}
+.quick > a:nth-of-type(3){
+    background-image: url(../images/aside_quick_naver_map.png);
+}
+.quick > a:nth-of-type(4){
+    background-image: url(../images/aside_quick_naver_subway.png);
+}
+
+.sell ,.buy, b > a {
+    position: relative;
+    left: -1px;
+    display: block;
+    width: 195px;
+    height: 83px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.banner2 {
+    position: relative;
+    left: -1px;
+    width: 195px;
+    height: 167px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-top: 6px;
+    background-image: url(../images/aside_banner_bg.jpg);
+}
+main > section > aside > div {
+    display: block;
+}
+
+.sell > img:nth-child(1) {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.sell > img:nth-child(2) {
+    float: right;
+}
+.buy > img:nth-child(1) {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.buy > img:nth-child(2) {
+    float: right;
+}
+.banner2 > img:nth-child(1) {
+    float: right;
+}
+.banner2 > img:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
   .article3{
   float: right;
   width: 800px;
@@ -233,3 +306,31 @@ main {
 .more {
     float: right;
 }
+
+footer{
+    width: 1000px;
+    height: 130px;
+    border: 1px solid #d7d7d7;
+    border-top: 2px solid #777777;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    bottom: 0;
+}
+
+footer > p {
+    font-size: 11.5px;
+    color: #585858;
+    line-height: 20px;
+    margin-left: 10px;
+}
+footer > p > span {
+    display: block;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+
+
+

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font: normal 12px '돋움';
+    font: normal 12px "noto sans korean";
 }
 ul,ol{list-style: none;}
 a{text-decoration: none; color: black;}
@@ -147,8 +147,6 @@ main > div > section > article {
     width: 1126px;
     height: 100%;
     margin: 0 auto;
-    border: 1px solid orange;
-    box-sizing: border-box;
 }
 
 main > div > .new > article {
@@ -157,7 +155,7 @@ main > div > .new > article {
 main > div > .new > article > div {
     float: left;
     width: 345px;
-    border: 1px solid pink;
+    border: 1px solid #d4d4d4;
     box-sizing: border-box;
 }
 main > div > .new > article > div:nth-child(1) {
@@ -199,4 +197,190 @@ main > div > .grain > article > div {
     height: 334px;
     border: 1px solid pink;
     box-sizing: border-box;
+}
+/* 사진 */
+main > div > section > article {
+    position: relative;
+}
+.banner1{
+    position: absolute;
+    left: 10px;
+    top:40px;
+}
+.banner2{
+    position: absolute;
+    left: 460px;
+    top: 40px;
+}
+.banner3{
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+}
+.new > h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.new > h3 > span {
+    font-size: 27px;
+    font-weight: bold;
+    color: #699270;
+}
+.new > article > div:nth-child(1) {
+    position: relative;
+    background: url(./images/main_new_img1.jpg);
+}
+.new > article > div:nth-child(1) > .txt {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 27px;
+    color: #564f47;
+}
+.new > article > div:nth-child(1) > .tit {
+    position: absolute;
+    left: 40px;
+    top: 116px;
+    font-size: 26px;
+    color: white;
+    padding: 4px 6px;
+    background-image: url(./images/bg_transparent.png);
+}
+.new > article > div:nth-child(1) > .tit > strong {
+    font-size: 32px;
+    opacity: 1;
+    color: #c3d069;
+    font-weight: bold;
+}
+.new > article > div > .price {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #ef9120;
+    font-size: 30px;
+}
+.price::after {
+    content:"원";
+    font-size: 18px;
+}
+.new > article > div:nth-child(2) {
+    position: relative;
+    height: 50%;
+    border-right:1px solid #d4d4d4 ;
+    border-bottom:1px solid #d4d4d4 ;
+}
+.new > article > div:nth-child(2) > img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.new > article > div:nth-child(2) > .txt {
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    font-size: 16px;
+    color: #564f47;
+}
+.new > article > div:nth-child(2) > .tit{
+    position: absolute;
+    left: 130px;
+    top: 90px;
+    font-size: 28px;
+    color: #899b34;
+}
+.new > article > div:nth-child(2) > .price{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.new > article > div:nth-child(3) {
+    position: relative;
+    height: 50%;
+    border-bottom:1px solid #d4d4d4 ;
+}
+.new > article > div:nth-child(3) > img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.new > article > div:nth-child(3) > .txt {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    font-size: 16px;
+    color: #564f47;
+}
+.new > article > div:nth-child(3) > .tit{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    font-size: 28px;
+    color: #358a00;
+}
+.new > article > div:nth-child(3) > .price{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.new > article > div:nth-child(4) {
+    position: relative;
+    height: 50%;
+    border-right:1px solid #d4d4d4 ;
+}
+.new > article > div:nth-child(4) > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.new > article > div:nth-child(4) > .txt {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 16px;
+    color: #564f47;
+}
+.new > article > div:nth-child(4) > .tit{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    font-size: 28px;
+    color: #c51a1a;
+}
+.new > article > div:nth-child(4) > .price{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.new > article > div:nth-child(5) {
+    position: relative;
+    height: 50%;
+}
+.new > article > div:nth-child(5) > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.new > article > div:nth-child(5) > .txt {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 16px;
+    color: #564f47;
+}
+.new > article > div:nth-child(5) > .tit{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    font-size: 28px;
+    color: #9e7839;
+}
+.new > article > div:nth-child(5) > .price{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
 }
