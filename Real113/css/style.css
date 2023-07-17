@@ -14,6 +14,7 @@
 #container{
     width: 100%;
     display: block;
+    flex: 1;
 }
 header {
     width: 100%;
@@ -332,15 +333,18 @@ main > section > aside > div {
 }
 
 footer{
-    float: left;
     width: 1000px;
     height: 130px;
     border: 1px solid #d7d7d7;
     border-top: 2px solid #777777;
     padding: 10px;
     box-sizing: border-box;
-    margin: 0 452px;
+    margin: 0 auto;
     margin-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1090px;
 }
 
 footer > p {
